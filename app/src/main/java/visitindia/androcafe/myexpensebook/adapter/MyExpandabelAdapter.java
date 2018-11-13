@@ -13,8 +13,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import visitindia.androcafe.vj.R;
-import visitindia.androcafe.vj.model.StatusDataModel;
+import visitindia.androcafe.myexpensebook.R;
+import visitindia.androcafe.myexpensebook.model.StatusDataModel;
+
 
 public class MyExpandabelAdapter extends BaseExpandableListAdapter{
 

@@ -29,15 +29,13 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import visitindia.androcafe.vj.DatabaseHelper;
-import visitindia.androcafe.vj.ProfileActivity;
-import visitindia.androcafe.vj.R;
-import visitindia.androcafe.vj.SpinnerInterface;
-import visitindia.androcafe.vj.fragment.ExpenseFragment;
-import visitindia.androcafe.vj.model.ListModel;
-import visitindia.androcafe.vj.model.SpinnerItem;
-
-
+import visitindia.androcafe.myexpensebook.DatabaseHelper;
+import visitindia.androcafe.myexpensebook.ProfileActivity;
+import visitindia.androcafe.myexpensebook.R;
+import visitindia.androcafe.myexpensebook.SpinnerInterface;
+import visitindia.androcafe.myexpensebook.fragment.ExpenseFragment;
+import visitindia.androcafe.myexpensebook.model.ListModel;
+import visitindia.androcafe.myexpensebook.model.SpinnerItem;
 public class MyListAdapter extends BaseAdapter implements SpinnerInterface {
     List<ListModel> arraylist;
     Context context;

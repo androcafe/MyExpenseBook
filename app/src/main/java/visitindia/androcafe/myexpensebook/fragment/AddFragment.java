@@ -25,12 +25,13 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import visitindia.androcafe.vj.DatabaseHelper;
-import visitindia.androcafe.vj.ProfileActivity;
-import visitindia.androcafe.vj.R;
-import visitindia.androcafe.vj.SpinnerInterface;
-import visitindia.androcafe.vj.adapter.MySpinnerAdapter;
-import visitindia.androcafe.vj.model.SpinnerItem;
+import visitindia.androcafe.myexpensebook.DatabaseHelper;
+import visitindia.androcafe.myexpensebook.ProfileActivity;
+import visitindia.androcafe.myexpensebook.R;
+import visitindia.androcafe.myexpensebook.SpinnerInterface;
+import visitindia.androcafe.myexpensebook.adapter.MySpinnerAdapter;
+import visitindia.androcafe.myexpensebook.model.SpinnerItem;
+
 
 public class AddFragment extends Fragment implements SpinnerInterface {
 

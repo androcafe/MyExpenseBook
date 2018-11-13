@@ -11,8 +11,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import visitindia.androcafe.vj.R;
-import visitindia.androcafe.vj.model.SpinnerItem;
+import visitindia.androcafe.myexpensebook.R;
+import visitindia.androcafe.myexpensebook.model.SpinnerItem;
+
 
 public class MySpinnerAdapter extends BaseAdapter {
     Context context;

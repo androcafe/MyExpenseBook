@@ -10,9 +10,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-import visitindia.androcafe.vj.model.ListModel;
-import visitindia.androcafe.vj.model.StatusDataModel;
-
+import visitindia.androcafe.myexpensebook.model.ListModel;
+import visitindia.androcafe.myexpensebook.model.StatusDataModel;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "MyDatabase.db";

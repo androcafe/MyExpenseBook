@@ -18,15 +18,15 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
-import visitindia.androcafe.vj.DatabaseHelper;
-import visitindia.androcafe.vj.ProfileActivity;
-import visitindia.androcafe.vj.R;
-import visitindia.androcafe.vj.SpinnerInterface;
-import visitindia.androcafe.vj.adapter.MyExpandabelAdapter;
-import visitindia.androcafe.vj.model.ListModel;
-import visitindia.androcafe.vj.model.StatusDataModel;
+import visitindia.androcafe.myexpensebook.DatabaseHelper;
+import visitindia.androcafe.myexpensebook.ProfileActivity;
+import visitindia.androcafe.myexpensebook.R;
+import visitindia.androcafe.myexpensebook.SpinnerInterface;
+import visitindia.androcafe.myexpensebook.adapter.MyExpandabelAdapter;
+import visitindia.androcafe.myexpensebook.model.ListModel;
+import visitindia.androcafe.myexpensebook.model.StatusDataModel;
 
-public class StatusFragment extends Fragment implements SpinnerInterface{
+public class StatusFragment extends Fragment implements SpinnerInterface {
 
     DatabaseHelper databaseHelper;
 

@@ -8,9 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 
-import visitindia.androcafe.vj.fragment.AddFragment;
-import visitindia.androcafe.vj.fragment.ExpenseFragment;
-import visitindia.androcafe.vj.fragment.StatusFragment;
+import visitindia.androcafe.myexpensebook.fragment.AddFragment;
+import visitindia.androcafe.myexpensebook.fragment.ExpenseFragment;
+import visitindia.androcafe.myexpensebook.fragment.StatusFragment;
+
 
 public class HomeActivity extends AppCompatActivity {
 

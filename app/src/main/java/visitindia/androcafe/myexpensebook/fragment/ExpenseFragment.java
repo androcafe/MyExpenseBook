@@ -20,11 +20,12 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import visitindia.androcafe.vj.DatabaseHelper;
-import visitindia.androcafe.vj.ProfileActivity;
-import visitindia.androcafe.vj.R;
-import visitindia.androcafe.vj.adapter.MyListAdapter;
-import visitindia.androcafe.vj.model.ListModel;
+import visitindia.androcafe.myexpensebook.DatabaseHelper;
+import visitindia.androcafe.myexpensebook.ProfileActivity;
+import visitindia.androcafe.myexpensebook.R;
+import visitindia.androcafe.myexpensebook.adapter.MyListAdapter;
+import visitindia.androcafe.myexpensebook.model.ListModel;
+
 
 public class ExpenseFragment extends Fragment{
     ListView listView;
