@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">MyExpenseBook</string>
+    <string name="app_name">VJ</string>
+
+    <!-- Add Expense Fragment -->
+    <string name="string_add_expense">Add Expenses</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_update">Update</string>
+
+
+    <!-- Error -->
+    <string name="error_add_money">Add Money</string>
+    <string name="title_add">Add</string>
+    <string name="title_expenses">Expnses</string>
+    <string name="title_status">Report</string>
+
+    <!-- My Profile -->
+    <string name="string_name">Username</string>
+    <string name="string_salary">Salary</string>
+    <string name="hint_name">Username</string>
+    <string name="hint_salary">Income</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+
+
 </resources>

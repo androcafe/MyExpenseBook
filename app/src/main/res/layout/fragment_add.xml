@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:id="@+id/linearlayout">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@raw/expense"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/string_add_expense"/>
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:dropDownSelector="@color/colorPrimary"
+        android:id="@+id/spinner"></Spinner>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:padding="5dp"
+        android:drawableLeft="@raw/rupees"
+        android:inputType="number"
+        android:singleLine="true"
+        android:windowSoftInputMode="adjustResize"
+        android:background="@drawable/add_shop_edittext"
+        android:id="@+id/editText_money"/>
+
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/btn_add"
+        android:id="@+id/button_add"/>
+
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:background="#49000000"
+    android:id="@+id/linearlayout">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@raw/expense"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/string_add_expense"/>
+
+        <Spinner
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:dropDownSelector="@color/colorPrimary"
+            android:id="@+id/spinner"></Spinner>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:drawableLeft="@raw/rupees"
+            android:singleLine="true"
+            android:background="@drawable/add_shop_edittext"
+            android:id="@+id/editText_money"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:background="@drawable/btn_bg"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/btn_update"
+                android:gravity="center"
+                android:id="@+id/button_add"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:background="@drawable/btn_bg"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/btn_cancel"
+                android:gravity="center"
+                android:id="@+id/button_cancel"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
