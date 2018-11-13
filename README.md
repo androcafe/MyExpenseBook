@@ -11,4 +11,9 @@ Output for this application is as follows :
 <div align="center">
    <img src="https://user-images.githubusercontent.com/35371687/48392918-6776fe00-e733-11e8-85f3-e23ef8f1aa36.png" width="100px"     height="100px"></img>
 </div>
-2)
+
+2) Monthly Expense
+
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/35371687/48392918-6776fe00-e733-11e8-85f3-e23ef8f1aa36.png" width="100px"     height="100px"></img>
+</div>
