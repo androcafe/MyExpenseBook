@@ -5,6 +5,16 @@ This android application consist of :
 2. retrieve our monthly expense
 3. check our saving according to monthly income
 
+In the terms of android methodologis project consist use of :
+1) SQLite Database
+2) SharedPreference
+3) Dialog box
+4) Custom Spinner
+5) Custom Edittext
+6) Custom Button
+7) Menus
+
+
 Output for this application is as follows :
 1) Enter new expense according to categories available
 
